@@ -1,0 +1,78 @@
+.app-container {
+  background-color: #f0f8ff; /* Light background color */
+  min-height: 100vh; /* Full height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.card-content {
+  text-align: center; /* Center align text */
+}
+
+.pokemon-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3f51b5; /* Primary color for emphasis */
+}
+
+.pokemon-type {
+  font-size: 1rem;
+  color: #6a6a6a; /* Secondary color for types */
+}
+
+.search-input {
+  border-radius: 20px; /* Rounded input field */
+}
+
+.search-label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.back-button {
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #303f9f; /* Darker shade on hover */
+}
+
+.pokemon-card {
+  transition: transform 0.2s;
+}
+
+.pokemon-card:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+/* Input text field styling */
+.search-input .MuiInputBase-root {
+  font-size: 1.2rem; /* Increase font size */
+  padding: 10px; /* Increase padding for better spacing */
+}
+
+.search-input .MuiOutlinedInput-notchedOutline {
+  border-radius: 20px; /* Ensure the borders are rounded */
+}
+
+.search-input .MuiInputLabel-root {
+  font-size: 1.2rem; /* Increase label font size */
+}
+
+.search-input .MuiInputBase-input {
+  padding: 12px; /* Add padding to input for better touch targets */
+}
+
+
